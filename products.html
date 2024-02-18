@@ -101,9 +101,50 @@
               </div>
           </div>
 
+          <!-- ######################## FIRST PRODUCT ########################  -->
+
+          <!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Open modal for @mdo</button>
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@fat">Open modal for @fat</button>
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@getbootstrap">Open modal for @getbootstrap</button> -->
+
+          <div class="modal fade" id="modal_types" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+
+                  <div class="row">
+                    
+                    <div class="col-md-5">
+                      <div class="text-center">
+                        <img class="rounded" id="img1" style="height: 300px;" src="" alt="">
+                      </div>
+                    </div>
+
+                    <div class="col-md-7">
+                      <h5 class="modal-title-type" id="title">Type</h5>
+                      <div class="mt-2">
+                        <br>
+                        <p class="body_content"></p>
+                      </div>
+                    </div>
+
+                  </div>
+                
+                </div>
+                <!-- <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div> -->
+              </div>
+            </div>
+          </div>
+
+
 
           <div class="col-md-12 my_container_1">
-            <a href="">
+            
               <div class="product-card-1 h-100">
                 <div class="row center">
                   <div class="col-md-4">
@@ -124,38 +165,52 @@
                       <p>Dive into the reliability of our fishing ropes, crafted to withstand the toughest marine conditions. Engineered with durability and strength in mind, our ropes offer anglers the confidence to conquer the waters with ease. Trust in our ropes to secure your success on every fishing expedition.</p>
                       <h4>Types of Ropes</h4>
                       <div class="row">
-                        <div class="col-md-4  center_ver_hor">
-                          <div class="sub_title_card center_ver_hor">
-                            <h5>Polysteel</h5>
+                        
+                          <div class="col-md-4  center_ver_hor">
+                            <a href="" data-bs-toggle="modal" data-bs-target="#modal_types" data-bs-part_type="Polysteel">
+                              <div class="sub_title_card center_ver_hor">
+                                <h5>Polysteel</h5>
+                              </div>
+                            </a>
                           </div>
-                        </div>
+                        
                         <div class="col-md-4  center_ver_hor">
+                          <a href="" data-bs-toggle="modal" data-bs-target="#modal_types" data-bs-part_type="Nylon">
                           <div class="sub_title_card">
                             <h5>Nylon</h5>
                           </div>
+                        </a>
                         </div>
                         <div class="col-md-4  center_ver_hor">
-                          <div class="sub_title_card">
-                            <h5>HDPE</h5>
-                          </div>
+                          <a href="" data-bs-toggle="modal" data-bs-target="#modal_types" data-bs-part_type="HDPE">
+                            <div class="sub_title_card">
+                              <h5>HDPE</h5>
+                            </div>
+                          </a>
                         </div>
                         <!-- <div class="col-md-4 sub_title_card center_ver_hor">
                           <h5>UHMPE (Dyneema ropes)</h5>
                         </div> -->
                         <div class="col-md-4  center_ver_hor">
+                          <a href="" data-bs-toggle="modal" data-bs-target="#modal_types" data-bs-part_type="Dyneema">
                           <div class="sub_title_card center_ver_hor">
                             <h5>UHMPE (Dyneema)</h5>
                           </div>
+                        </a>
                         </div>
                         <div class="col-md-4  center_ver_hor">
+                          <a href="" data-bs-toggle="modal" data-bs-target="#modal_types" data-bs-part_type="Polyester">
                           <div class="sub_title_card center_ver_hor">
                             <h5>PolyAmide / Polyester</h5>
                           </div>
+                        </a>
                         </div>
                         <div class="col-md-4  center_ver_hor">
+                          <a href="" data-bs-toggle="modal" data-bs-target="#modal_types" data-bs-part_type="Raffia">
                           <div class="sub_title_card center_ver_hor">
                             <h5>Raffia</h5>
                           </div>
+                        </a>
                         </div>
                         <div class="col-md-4  center_ver_hor">
                           <div class=" center_ver_hor">
@@ -163,9 +218,11 @@
                           </div>
                         </div>
                         <div class="col-md-4  center_ver_hor">
+                          <a href="" data-bs-toggle="modal" data-bs-target="#modal_types" data-bs-part_type="Polypropylene">
                           <div class="sub_title_card">
                             <h5>Polypropylene</h5>
                           </div>
+                        </a>
                         </div>
                         <div class="col-md-4  center_ver_hor">
                           <div class="">
@@ -177,12 +234,11 @@
                   </div>
                 </div>
               </div>
-            </a>
           </div>
 
-
+          <!-- ######################## SECOND PRODUCT ########################  -->
           <div class="col-md-12 my_container_2">
-            <a href="">
+
               <div class="product-card-1 h-100">
                 <div class="row center">
                   <div class="col-md-4">
@@ -204,52 +260,66 @@
                       <h4>Types of Nets</h4>
                       <div class="row">
                         <div class="col-md-4  center_ver_hor">
+                          <a href="" data-bs-toggle="modal" data-bs-target="#modal_types" data-bs-part_type="Monofilament">
                           <div class="sub_title_card center_ver_hor">
                             <h5>Monofilament</h5>
                           </div>
+                        </a>
                         </div>
                         <div class="col-md-4  center_ver_hor">
+                          <a href="" data-bs-toggle="modal" data-bs-target="#modal_types" data-bs-part_type="Mono-multi-filament">
                           <div class="sub_title_card center_ver_hor">
                             <h5>Mono - Multi filament</h5>
                           </div>
+                        </a>
                         </div>
                         <div class="col-md-4  center_ver_hor">
+                          <a href="" data-bs-toggle="modal" data-bs-target="#modal_types" data-bs-part_type="Multifilament">
                           <div class="sub_title_card center_ver_hor">
                             <h5>Multifilament</h5>
                           </div>
+                        </a>
                         </div>
                         <!-- <div class="col-md-4 sub_title_card center_ver_hor">
                           <h5>UHMPE (Dyneema ropes)</h5>
                         </div> -->
                         <div class="col-md-2  center_ver_hor">
+                          <a href="">
                           <div class=" center_ver_hor">
                             <h5></h5>
                           </div>
+                        </a>
                         </div>
                         <div class="col-md-4  center_ver_hor">
+                          <a href="" data-bs-toggle="modal" data-bs-target="#modal_types" data-bs-part_type="Lengthway stretching">
                           <div class="sub_title_card center_ver_hor">
                             <h5>Lengthway stretching</h5>
                           </div>
+                        </a>
                         </div>
                         <div class="col-md-4  center_ver_hor">
+                          <a href="" data-bs-toggle="modal" data-bs-target="#modal_types" data-bs-part_type="Depthway stretching">
                           <div class="sub_title_card center_ver_hor">
                             <h5>Depthway stretching</h5>
                           </div>
+                        </a>
                         </div>
                         <div class="col-md-2  center_ver_hor">
+                          <a href="">
                           <div class=" center_ver_hor">
                             <h5></h5>
                           </div>
+                        </a>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-            </a>
+  
           </div>
 
-
+          <!-- ######################## THIRD PRODUCT ########################  -->
           <div class="col-md-12 my_container_1">
             <a href="">
               <div class="product-card-1 h-100">
@@ -315,7 +385,7 @@
             </a>
           </div>
 
-
+          <!-- ######################## FOUR PRODUCT ########################  -->
           <div class="col-md-12 my_container_2">
             <a href="">
               <div class="product-card-1 h-100">
@@ -384,6 +454,7 @@
             </a>
           </div>
 
+          <!-- ######################## FIFTH PRODUCT ########################  -->
           <div class="col-md-12 my_container_1">
             <a href="">
               <div class="product-card-1 h-100">
@@ -547,8 +618,8 @@
   </section>
 
   <!-- end info section -->
-
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script src="js/custom.js"></script>
 
 </body>
 
