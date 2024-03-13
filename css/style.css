@@ -532,7 +532,7 @@ a:focus {
 
 .tab-pane
 {
-  border-left: 3px solid #0d6efd;
+  border-left: 3px solid #00204a;
   padding-left: 20px;
   margin-bottom: 50px;
 }
@@ -543,7 +543,7 @@ a:focus {
   .tab-pane
   {
     border-left: none;
-    padding-left: 20px;
+    padding: 10px;
     margin-bottom: 50px;
   }
 }
@@ -560,8 +560,8 @@ a:focus {
 {
   text-align: center;
   /* margin: 100px 0px; */
-  padding-top: 30px;
-  padding-bottom: 50px;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
 .intro h1
@@ -582,7 +582,7 @@ a:focus {
   margin: auto;
   padding: 10px;
   /* width: 200px; */
-  height: 320px;
+  height: 250px;
   border: none;
   /* background-color: #F8F9F9 ; */
   /* background-color: #00204a ; */
@@ -599,7 +599,7 @@ a:focus {
 
 .intro .card .number
 {
-  margin: 20px;
+  margin-top: 20px;
 }
 
 .intro .card .number h2
@@ -610,7 +610,7 @@ a:focus {
   height: 50px;
   line-height: 50px;
   border-radius: 50%;
-  font-size: 50px;
+  font-size: 30px;
   /* color: #fff; */
   text-align: center;
   background: #00204a;
@@ -1147,6 +1147,16 @@ a:focus {
 
 }
 
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link 
+{
+  background-color: #00204a;
+}
+
+.nav-link
+{
+  color: #00204a;
+}
+
 
 .why_section .box {
   margin-top: 45px;
@@ -1398,9 +1408,16 @@ a:focus {
 
 /* client section end */
 .info_section {
-  background-color: #00204a;
-  color: #ffffff;
+  /* background-color: #00204a; */
+  background-color: #fff;
+  color: #000;
   padding: 45px 0 15px 0;
+}
+
+.info_section .info_detail p
+{
+  text-align: justify;
+  width: 200px;
 }
 
 .info_section h4 {
@@ -1424,7 +1441,7 @@ a:focus {
 
 .info_section .info_contact .contact_link_box a {
   margin: 5px 0;
-  color: #ffffff;
+  color: #000;
 }
 
 .info_section .info_contact .contact_link_box a i {
@@ -1453,7 +1470,7 @@ a:focus {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: #ffffff;
+  color: #000;
   border-radius: 100%;
   margin-right: 10px;
   font-size: 24px;
@@ -1483,7 +1500,7 @@ a:focus {
       -ms-flex-align: center;
           align-items: center;
   margin-bottom: 15px;
-  color: #ffffff;
+  color: #000;
 }
 
 .info_section .info_links a:hover {
@@ -1532,6 +1549,16 @@ a:focus {
 
 .info_section form button:hover {
   background-color: #007fa4;
+}
+
+.info_section .full_logo_footer
+{
+  text-align: center;
+}
+
+.info_section .full_logo_footer img
+{
+  height: 200px;
 }
 
 /* footer section*/
@@ -1837,11 +1864,78 @@ a:focus {
   font-weight: bolder;
 }
 
+
+
+.hero_about_us_1
+{
+  /* margin-top: 200px; */
+  text-align: center;
+  height:500px;
+  background-color: #00204a;
+  color: #fff; 
+}
+
+
+.hero_about_us_1 .hero_text
+{
+  margin: 150px 0px;
+  /* vertical-align: middle; */
+}
+
+.hero_about_us_1 .hero_text h1
+{
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+.hero_about_us_1 .hero_text h3
+{
+  margin: auto;
+  width: 30%;
+  font-size: 20px;
+}
+
+
+
+@media only screen and (max-width: 576px) 
+{
+  .hero_about_us_1
+  {
+    /* margin-top: 200px; */
+    text-align: center;
+    height: 700px;
+    background-color: #00204a;
+    color: #fff; 
+  }
+
+  .hero_about_us_1 .hero_text
+  {
+    margin: 150px 0px;
+    /* vertical-align: middle; */
+  }
+
+  .hero_about_us_1 .hero_text h1
+  {
+    font-size: 60px;
+    margin-bottom: 0px;
+    padding: 50px;
+  }
+
+  .hero_about_us_1 .hero_text h3
+  {
+    margin: auto;
+    width: 80%;
+    font-size: 20px;
+  }
+}
+
+
+
 .hero_about_us
 {
   /* margin-top: 200px; */
   text-align: center;
-  height:600px;
+  height:280px;
   background-color: #00204a;
   color: #fff; 
 }
@@ -1849,14 +1943,14 @@ a:focus {
 
 .hero_about_us .hero_text
 {
-  margin: 250px 0px;
+  margin: 70px 0px;
   /* vertical-align: middle; */
 }
 
 .hero_about_us .hero_text h1
 {
   font-size: 60px;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 
 .hero_about_us .hero_text h3
